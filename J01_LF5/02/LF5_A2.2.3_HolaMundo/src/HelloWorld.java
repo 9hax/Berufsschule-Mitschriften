@@ -11,7 +11,7 @@ public class HelloWorld {
         System.out.println("Hola Mundo!");
 
         /*
-        // 1.
+        // 1. Die Ausgabe der beiden Wörter erfolgt auf zwei unterschiedlichen Zeilen.
         System.out.println("Aufgabe 2, 1:")
 
         System.out.println("Hallo");
@@ -19,7 +19,7 @@ public class HelloWorld {
         */
 
         /*
-        // 2.
+        // 2. Die Ausgabe der beiden Wörter geschieht wieder auf der gleichen Zeile.  
         System.out.println("Aufgabe 2, 2:")
 
         System.out.print("Hallo");
@@ -27,7 +27,7 @@ public class HelloWorld {
         */
 
         /*
-        // 3.
+        // 3. Die Ausgabe der beiden Wörter erfolgt erneut auf zwei unterschiedlichen Zeilen.
         System.out.println("Aufgabe 2, 3:")
 
         System.out.print("Hallo\n");
@@ -35,12 +35,12 @@ public class HelloWorld {
         */
 
         /*
-        // 4.
+        // 4. Die Ausgabe der beiden Wörter erfolgt weiterhin auf zwei unterschiedlichen Zeilen. Zusätzlich werden die Zeilen um ein Tabstopp eingerückt.
         System.out.println("Aufgabe 2, 4:")
 
         System.out.print("\tHallo\n");
         System.out.print(" Welt!");
         */
-        
+
     }
 }
