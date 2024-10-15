@@ -1,6 +1,6 @@
 # Glossar, Begriffsübersicht
 
-Autoren: Lukas Rühe, Paul Friedrich Vierkorn
+Autoren: Lucas Rühe, Paul Friedrich Vierkorn
 Datum: 2024-10-15_08-00
 
 | Begriff | Definition |
