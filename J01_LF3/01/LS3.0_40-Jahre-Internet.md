@@ -1,6 +1,6 @@
 # Notizen
 
-Autoren: Paul Friedrich Vierkorn, Luis Rühe
+Autoren: Paul Friedrich Vierkorn, Lucas Rühe
 Datum: 2024-09-24_08:00
 
 "WorldWideWebwunder"
@@ -30,7 +30,7 @@ Datum: 2024-09-24_08:00
 
 ## Internet
 
-Das Internet ist eine Vernutzung von Computersystemen über ein weltweites Netzwerk zum Datenaustausch.
+Das Internet ist eine Vernetzung von Computersystemen über ein weltweites Netzwerk zum Datenaustausch.
 
 ## World Wide Web
 
