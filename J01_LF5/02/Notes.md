@@ -9,4 +9,10 @@ Ablauf:
 - Entwicklung eines einfachen Java-Programmes
 - Bearbeitung Text zu Compiler und Interpreter
 - Kreuzworträtsel
-- 
+
+## Tafelbild
+
+| | Vorteile | Nachteile |
+|-|----------|-----------|
+|Interpreter| - schnellere Rückmeldung bei Fehlern <br> - Code ist plattformunabhängig | - langsamere Ausführung |
+|Compiler| - schnellere Ausführung | - plattformabhängig <br> - Rückmeldung bei Fehlern meist schon bei Kompilation |
