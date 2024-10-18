@@ -67,5 +67,19 @@ public class A11_Uebung {
           a = 1; 5 + ++a => 7
          */
 
+        // A1.1.3 Übung 2
+
+        /*
+        | a     | b  ---| Operator | Ergebnis |
+        |-------|-------|----------|----------|
+        | false | false | &&       | false    |
+        | false | true  | &&       | false    |
+        | true  | false | &&       | false    |
+        | true  | true  | &&       | true     |
+        | false | false | ||       | false    |
+        | false | true  | ||       | true     |
+        | true  | false | ||       | true     |
+        | true  | true  | ||       | true     |
+         */
     }
 }
