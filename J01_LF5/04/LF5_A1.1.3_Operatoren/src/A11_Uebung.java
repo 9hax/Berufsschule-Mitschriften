@@ -87,5 +87,9 @@ public class A11_Uebung {
         short schalter = 10;
         System.out.println((schalter > 7 && schalter < 12));
         System.out.println((schalter != 7 && schalter == 12));
+
+        // A1.1.3 Übung 4
+
+        String nonsense = "Meine Oma " + "fährt im " + "Hühnerstall Motorrad.";
     }
 }
