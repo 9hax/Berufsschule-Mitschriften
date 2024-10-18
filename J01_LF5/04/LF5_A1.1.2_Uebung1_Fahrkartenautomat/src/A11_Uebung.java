@@ -20,9 +20,11 @@ public class A11_Uebung {
         boolean uebung2_var1 = true;
         short uebung2_var2 = -1000;
         float uebung2_var3 = (float)1.255;
+        //float uebung2_var3 = 1.255F;
         char uebung2_var4 = '#';
         byte uebung2_var5 = 8;
         long uebung2_var6 = 2147483648L;
+        //long uebung2_var6 = (long)2147483648; will not work!
 
         // Übung 3
 
