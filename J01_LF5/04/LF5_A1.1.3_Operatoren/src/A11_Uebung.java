@@ -81,5 +81,11 @@ public class A11_Uebung {
         | true  | false | ||       | true     |
         | true  | true  | ||       | true     |
          */
+
+        // A1.1.3 Übung 3
+
+        short schalter = 10;
+        System.out.println((schalter > 7 && schalter < 12));
+        System.out.println((schalter != 7 && schalter == 12));
     }
 }
