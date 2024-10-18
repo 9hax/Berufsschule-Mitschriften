@@ -34,14 +34,14 @@ Die folgenden Punkte sind auf der Webseite des BSI in einer Archivkopie aus Mai 
 ## Bearbeitung der Aufgabe LS4.1 A3.4.c
 
 1. Die **Basis-Absicherung** sichert alle Bereiche des Unternehmens mit einer Grundsicherung ab, die nicht dem durchschnittlichen Schutzbedarf anderer Unternehmen entspricht.
-   Die **Kern-Absicherung** sichert nur besonders Schützenswerte Unternehmensbereiche ab, reicht jedoch in der Sicherheit meist über die Standardabsicherung hinaus.
    Die **Standard-Absicherung** sichert alle Bereiche des Unternehmens mit einer durchschnittlichen Sicherheitsstufe ab.
+   Die **Kern-Absicherung** sichert nur besonders Schützenswerte Unternehmensbereiche ab, reicht jedoch in der Sicherheit meist über die Standardabsicherung hinaus.
 
 2. | Absicherung | Vorteile | Nachteile |
    |-|-|-|
-   | **Basis-Absicherung** | - alle Teile des Unternehmens können schnell abgesichert werden. <br> - eine Grundsicherung des Unternehmens ist gegeben | - keine Hohe Sicherheit |
+   | **Basis-Absicherung** | - alle Teile des Unternehmens können schnell abgesichert werden. <br> - eine Grundsicherung des Unternehmens ist gegeben <br> - preislich günstig umsetzbar | - keine Hohe Sicherheit |
+   | **Standard-Absicherung** | - alle Teile des Unternehmens werden abgesichert <br> - alles ist mit einem guten Sicherheitsstandard geschützt <br> - leichte Koordination aller Mitarbeiter | - Umsetzung oft langsam |
    | **Kern-Absicherung** | - die wichtigsten Teile des Unternehmens werden gesichert <br> - schnell umsetzbar | - Sichert nicht das gesamte Unternehmen ab |
-   | **Standard-Absicherung** | - alle Teile des Unternehmens werden abgesichert <br> - alles ist mit einem guten Sicherheitsstandard geschützt | - Umsetzung oft langsam |
 
 3. Ich denke, dass ein Einstieg mit einer Basissicherung eine gute Variante zur Erkundung der Informationssicherheit ist, da alle wichtigen Bereiche beleuchtet werden können und somit ein Einstieg in alle Themengebiete möglich ist.
 Bei Bedarf können Bereiche genauer beleuchtet werden.
