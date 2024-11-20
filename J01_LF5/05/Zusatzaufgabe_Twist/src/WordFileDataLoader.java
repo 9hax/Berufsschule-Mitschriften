@@ -1,20 +1,17 @@
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 import java.util.Scanner;
 
 public class WordFileDataLoader implements DataLoaderInterface {
 
-    List<String> loadedData = null;
+    ArrayList<String> loadedData = null;
 
     @Override
-    public List<String> loadData(Path sourceFile) {
+    public ArrayList<String> loadData(Path sourceFile) {
         //TODO: Implement your custom Word List Loader here!
 
-        ArrayList<String> fileContent = new ArrayList<String>();
+        ArrayList<String> fileContent = new ArrayList<>();
         Scanner fileReadingScanner;
         try {
             fileReadingScanner = new Scanner(sourceFile);
@@ -24,7 +21,9 @@ public class WordFileDataLoader implements DataLoaderInterface {
         }
 
         while (fileReadingScanner.hasNext()) {
-            fileContent.add(fileReadingScanner.next());
+            String line = fileReadingScanner.next();
+            if (!line.isBlank()) fileContent.add(line);
+            // This skips blank lines.
         }
 
         return fileContent;
