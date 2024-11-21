@@ -14,29 +14,35 @@ public class MenuSystem {
     }
 
     public void showUI() {
-        while (true) {
-            System.out.print(
-                    """
-                            Twistor Main Menu
-                            Please select an option:
-                            
-                            1. Twist word or sentence
-                            2. Untwist word or sentence
-                            3. Load additional datasets
-                            4. Quit the program
-                            > 
-                            """);
+        System.out.print(
+                """
+                        Twistor Main Menu
+                        Please select an option:
+                        
+                        1. Twist word or sentence
+                        2. Untwist word or sentence
+                        3. Load additional datasets
+                        4. Quit the program
+                        > 
+                        """);
+        boolean exit = false;
+        while (!exit) {
             switch (scanner.nextLine().substring(0,1)) {
                 case "1":
                     showTwistUI();
+                    break;
                 case "2":
                     showUntwistUI();
+                    break;
                 case "3":
                     showDatasetManagerUI();
+                    break;
                 case "4":
+                    exit = true;
                     break;
                 default:
                     System.out.println("Please try again.");
+                    break;
             }
         }
     }

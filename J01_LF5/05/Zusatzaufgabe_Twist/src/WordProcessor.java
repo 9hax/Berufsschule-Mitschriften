@@ -22,6 +22,8 @@ public class WordProcessor {
 
         for (int i = middleChars.length - 1; i > 0; i--) {
             //Pick a random character and swap the two.
+            //TODO: Implement "twistedness"-value
+            //int j = i+random.nextInt(twistedness);
             int j = random.nextInt(i + 1);
             char temp = middleChars[i];
             middleChars[i] = middleChars[j];
@@ -47,7 +49,6 @@ public class WordProcessor {
 
         List<String> result = new ArrayList<>();
 
-        // Regular expression to match words and punctuation
         Pattern pattern = Pattern.compile("[a-zA-Z]+|[.,!?;]");
         Matcher matcher = pattern.matcher(sentence);
 
