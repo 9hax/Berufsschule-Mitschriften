@@ -1,0 +1,132 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="W5OuGuvFtosgOTiIfGMI">
+    <mxGraphModel dx="970" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xzetMSaucZuoYifo4LdO-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="xzetMSaucZuoYifo4LdO-1" target="xzetMSaucZuoYifo4LdO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-1" value="Fahrgast" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="xzetMSaucZuoYifo4LdO-2" target="xzetMSaucZuoYifo4LdO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="xzetMSaucZuoYifo4LdO-2" target="xzetMSaucZuoYifo4LdO-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-2" value="Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="390" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="xzetMSaucZuoYifo4LdO-3" target="xzetMSaucZuoYifo4LdO-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="xzetMSaucZuoYifo4LdO-3" target="xzetMSaucZuoYifo4LdO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="xzetMSaucZuoYifo4LdO-3" target="xzetMSaucZuoYifo4LdO-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-3" value="Techniker&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="520" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-4" value="Fahrkartenautomat" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=130;height=30;" vertex="1" parent="1">
+          <mxGeometry x="275" y="140" width="485" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-5" value="Fahrkarte kaufen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="xzetMSaucZuoYifo4LdO-7" target="xzetMSaucZuoYifo4LdO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-33" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xzetMSaucZuoYifo4LdO-24">
+          <mxGeometry x="-0.085" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-7" value="Geld entgegennehmen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="xzetMSaucZuoYifo4LdO-8" target="xzetMSaucZuoYifo4LdO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-34" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xzetMSaucZuoYifo4LdO-23">
+          <mxGeometry x="-0.0671" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-8" value="Rückgeld ausgeben" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="290" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="xzetMSaucZuoYifo4LdO-9" target="xzetMSaucZuoYifo4LdO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-32" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xzetMSaucZuoYifo4LdO-11">
+          <mxGeometry x="-0.1119" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-9" value="Fahrkarte&amp;nbsp;&lt;div&gt;ausdrucken&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="320" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="xzetMSaucZuoYifo4LdO-14" target="xzetMSaucZuoYifo4LdO-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-29" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xzetMSaucZuoYifo4LdO-26">
+          <mxGeometry x="-0.4991" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-14" value="Fahrpreise anpassen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="xzetMSaucZuoYifo4LdO-15" target="xzetMSaucZuoYifo4LdO-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="549.9473684210527" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-30" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xzetMSaucZuoYifo4LdO-27">
+          <mxGeometry x="-0.1954" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-15" value="Münzvorrat auffüllen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="515" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="xzetMSaucZuoYifo4LdO-16" target="xzetMSaucZuoYifo4LdO-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-31" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xzetMSaucZuoYifo4LdO-28">
+          <mxGeometry x="-0.0327" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-16" value="Fahrkarten auffüllen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="610" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-22" value="Berechtigung prüfen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="510" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-35" value="Fahrkarte&amp;nbsp;&lt;div&gt;auswählen&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="340" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="xzetMSaucZuoYifo4LdO-35" target="xzetMSaucZuoYifo4LdO-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="457" y="350" as="sourcePoint" />
+            <mxPoint x="394" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzetMSaucZuoYifo4LdO-37" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xzetMSaucZuoYifo4LdO-36">
+          <mxGeometry x="-0.1119" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
