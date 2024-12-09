@@ -31,8 +31,10 @@ Tihs stneecne is dcuiflfit to raed.
 
 The following command line flags are supported:
 
-- ``--add-list [PATH]`` loads a custom word list. 
-- ``--no-default`` skips loading the default word list.
+- ``-a [PATH] OR --add-list [PATH]`` loads a custom word list.
+- ``-t`` Twist all following words or sentences.
+- ``-u`` Untwist all following words or sentences.
+- ``-i OR --interactive`` starts twistor in Interactive mode. Not combinable with -t or -u.
 
 
 

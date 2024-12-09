@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Scanner;
 
@@ -7,27 +8,25 @@ public class MenuSystem {
     Scanner scanner;
     DatasetManager datasetManager;
 
-    public MenuSystem() {
+    public MenuSystem(ArrayList<String> wordLists) {
         scanner = new Scanner(System.in);
-        datasetManager = new DatasetManager();
+        datasetManager = new DatasetManager(wordLists);
         showUI();
     }
 
     public void showUI() {
-        System.out.print(
-                """
-                        Twistor Main Menu
-                        Please select an option:
-                        
-                        1. Twist word or sentence
-                        2. Untwist word or sentence
-                        3. Load additional datasets
-                        4. Quit the program
-                        > 
-                        """);
+        System.out.print("""
+                Twistor Main Menu
+                Please select an option:
+                
+                1. Twist word or sentence
+                2. Untwist word or sentence
+                3. Load additional datasets
+                4. Quit the program
+                > """);
         boolean exit = false;
         while (!exit) {
-            switch (scanner.nextLine().substring(0,1)) {
+            switch (scanner.nextLine().substring(0, 1)) {
                 case "1":
                     showTwistUI();
                     break;
@@ -65,7 +64,8 @@ public class MenuSystem {
             String input = scanner.nextLine();
             if (input.equals("STOP")) break;
             System.out.println("The following candidates for untwisting were found:");
-            for (String candidate : Twister.untwist(input)) {
+            ArrayList<String> candidates = Twister.untwist(input, datasetManager);
+            for (String candidate : candidates) {
                 System.out.println(candidate);
             }
         }
@@ -73,6 +73,8 @@ public class MenuSystem {
     }
 
     public void showDatasetManagerUI() {
-        System.out.println("There are currently "+datasetManager.getDatasets());
+        int datasetCount = datasetManager.getDatasets().size();
+        long wordCount = DatasetProcessor.getDatasetSize(datasetManager.mergeLoadedDatasets());
+        System.out.println("There are currently " + datasetCount + " loaded, containing " + wordCount + " words.");
     }
 }

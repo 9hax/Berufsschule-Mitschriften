@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -33,7 +30,7 @@ public class WordProcessor {
         return firstLetter + new String(middleChars) + lastLetter;
     }
 
-    public static List<String> getUntwistCandidates(String twistedWord, HashMap<String, List<String>> dataset) {
+    public static ArrayList<String> getUntwistCandidates(String twistedWord, HashMap<String, ArrayList<String>> dataset) {
         String sorted = new String(twistedWord.chars().sorted().toArray(), 0, twistedWord.length());
 
         if (dataset.containsKey(sorted)) {
@@ -44,12 +41,12 @@ public class WordProcessor {
         return null;
     }
 
-    public static List<String> splitSentence(String sentence) {
+    public static ArrayList<String> splitSentence(String sentence) {
         // This is an advanced split wrapper to handle punctuation.
 
-        List<String> result = new ArrayList<>();
+        ArrayList<String> result = new ArrayList<>();
 
-        Pattern pattern = Pattern.compile("[a-zA-Z]+|[.,!?;]");
+        Pattern pattern = Pattern.compile("[a-zA-Z\\wäöüÄÖÜß]+|[.,!?;]");
         Matcher matcher = pattern.matcher(sentence);
 
         while (matcher.find()) {
@@ -59,4 +56,31 @@ public class WordProcessor {
         return result;
     }
 
+    public static ArrayList<String> permuteSentenceSet(ArrayList<ArrayList<String>> untwistCandidates) {
+        // Initialize a queue to hold partial sentences
+        if (untwistCandidates == null) return null;
+
+        Queue<String> queue = new LinkedList<>();
+        queue.add(""); // Start with an empty sentence
+
+        // Iterate over each group of words
+        for (ArrayList<String> group : untwistCandidates) {
+            int currentLevelSize = queue.size(); // Number of partial sentences to process at this level
+
+            // Process all partial sentences in the queue for the current group
+            for (int i = 0; i < currentLevelSize; i++) {
+                String currentSentence = queue.poll(); // Remove the front of the queue
+
+                // Append each word from the current group to the partial sentence
+                for (String word : group) {
+                    // If the current sentence is empty, don't add a space
+                    String newSentence = currentSentence.isEmpty() ? word : currentSentence + " " + word;
+                    queue.add(newSentence); // Add the new sentence back to the queue
+                }
+            }
+        }
+
+        // After processing all groups, the queue contains all possible sentences
+        return new ArrayList<>(queue);
+    }
 }

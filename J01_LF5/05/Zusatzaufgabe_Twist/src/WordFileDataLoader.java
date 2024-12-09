@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class WordFileDataLoader implements DataLoaderInterface {
-
-    ArrayList<String> loadedData = null;
-
     @Override
     public ArrayList<String> loadData(Path sourceFile) {
         //TODO: Implement your custom Word List Loader here!
@@ -27,11 +24,5 @@ public class WordFileDataLoader implements DataLoaderInterface {
         }
 
         return fileContent;
-    }
-
-    @Override
-    public long getDataSize() {
-        if (loadedData != null) return loadedData.size();
-        return -1;
     }
 }
