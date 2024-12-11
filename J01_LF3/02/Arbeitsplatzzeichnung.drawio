@@ -1,0 +1,88 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.1 Chrome/128.0.6613.186 Electron/32.2.6 Safari/537.36" version="25.0.1">
+  <diagram id="l2aKFoh6-Bn0gOPZ2l0T" name="Page-1">
+    <mxGraphModel dx="1325" dy="723" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-20" value="Bildschirm, Maus &amp;amp;&lt;br&gt;&amp;nbsp;Tastatur auf Tisch" style="html=1;verticalLabelPosition=middle;align=center;labelBackgroundColor=#ffffff;verticalAlign=middle;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.monitor;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="329.5" width="170" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mpq5AgpwV83IM184FDqD-13" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://jgraph.github.io/drawio-libs/libs/arista/DCS-7316.svg;html=1;labelBackgroundColor=#ffffff;rackUnitSize=16.7;resizable=0;container=0;" parent="1" vertex="1">
+          <mxGeometry x="41" y="80" width="178" height="347" as="geometry" />
+        </mxCell>
+        <mxCell id="mpq5AgpwV83IM184FDqD-40" value="Arbeitsplatzzeichnung" style="text;html=1;resizable=1;points=[];autosize=0;align=left;verticalAlign=top;spacingTop=-4;fontSize=20;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-230" y="40" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mpq5AgpwV83IM184FDqD-14" value="" style="opacity=0;container=1;collapsible=0;childLayout=rack;rackUnitSize=16.7;allowGaps=1;marginLeft=0;marginRight=0;marginTop=0;marginBottom=0;textColor=#666666;numDisp=off;resizable=0;movable=0;" parent="1" vertex="1">
+          <mxGeometry x="48" y="90" width="162" height="133.6" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-16" value="TK-Anlage" style="shape=mxgraph.rack.cisco.cisco_ips_4500_sensor;html=1;labelPosition=right;align=left;spacingLeft=15;dashed=0;shadow=0;fillColor=#ffffff;" vertex="1" parent="mpq5AgpwV83IM184FDqD-14">
+          <mxGeometry y="16.7" width="162" height="33.4" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-14" value="Rack Shelf &quot;AG14 192.168.60.140 ... 149&quot;" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rackGeneral.shelf;container=1;collapsible=0;flipV=1;" vertex="1" parent="mpq5AgpwV83IM184FDqD-14">
+          <mxGeometry y="50.099999999999994" width="162" height="16.7" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-13" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Switch 2: Cisco Catalyst 3560 POE" style="html=1;verticalLabelPosition=middle;verticalAlign=middle;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.j9773a_2530_24g_poeplus_switch;labelPosition=right;align=left;" vertex="1" parent="mpq5AgpwV83IM184FDqD-14">
+          <mxGeometry y="66.8" width="162" height="16.7" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-12" value="Switch 1: Cisco Catalyst 2950" style="shape=mxgraph.rack.cisco.cisco_catalyst_4900m_switch;html=1;labelPosition=right;align=left;spacingLeft=15;dashed=0;shadow=0;fillColor=#ffffff;" vertex="1" parent="mpq5AgpwV83IM184FDqD-14">
+          <mxGeometry y="83.5" width="162" height="16.7" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-11" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rackGeneral.horCableDuct;" vertex="1" parent="mpq5AgpwV83IM184FDqD-14">
+          <mxGeometry y="100.19999999999999" width="162" height="16.7" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-10" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;CentreCOM FH812u V2 Hub" style="html=1;verticalLabelPosition=middle;verticalAlign=middle;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.gateways_controllers.aruba_9012_10_port_gbe_gateway_front;labelPosition=right;align=left;" vertex="1" parent="mpq5AgpwV83IM184FDqD-14">
+          <mxGeometry y="116.89999999999999" width="162" height="16.7" as="geometry" />
+        </mxCell>
+        <mxCell id="mpq5AgpwV83IM184FDqD-15" value="" style="opacity=0;container=1;collapsible=0;childLayout=rack;rackUnitSize=16.7;allowGaps=1;marginLeft=0;marginRight=0;marginTop=0;marginBottom=0;textColor=#666666;numDisp=off;resizable=0;movable=0;" parent="1" vertex="1">
+          <mxGeometry x="48" y="244" width="162" height="133.6" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-7" value="Router 3" style="shape=mxgraph.rack.cisco.cisco_nexus_3048_switch;html=1;labelPosition=right;align=left;spacingLeft=15;dashed=0;shadow=0;fillColor=#ffffff;" vertex="1" parent="mpq5AgpwV83IM184FDqD-15">
+          <mxGeometry y="16.7" width="162" height="16.7" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-6" value="Router 2 (R2)" style="shape=mxgraph.rack.cisco.cisco_nexus_3048_switch;html=1;labelPosition=right;align=left;spacingLeft=15;dashed=0;shadow=0;fillColor=#ffffff;" vertex="1" parent="mpq5AgpwV83IM184FDqD-15">
+          <mxGeometry y="33.4" width="162" height="16.7" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-5" value="Router 1 (R1)" style="shape=mxgraph.rack.cisco.cisco_nexus_3048_switch;html=1;labelPosition=right;align=left;spacingLeft=15;dashed=0;shadow=0;fillColor=#ffffff;" vertex="1" parent="mpq5AgpwV83IM184FDqD-15">
+          <mxGeometry y="50.099999999999994" width="162" height="16.7" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-3" value="24-Port Patchbay" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.general.cat5e_rack_mount_patch_panel_24_ports;" vertex="1" parent="mpq5AgpwV83IM184FDqD-15">
+          <mxGeometry y="66.8" width="162" height="16.7" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-2" value="Tischanschlüsse&lt;div&gt;(Patchbay, 8x RJ45, &lt;br&gt;1x DB9)&lt;/div&gt;" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rackGeneral.neatPatch;" vertex="1" parent="mpq5AgpwV83IM184FDqD-15">
+          <mxGeometry y="116.89999999999999" width="162" height="16.7" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-1" value="Power&amp;nbsp; Bar" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.dell.power_strip;" vertex="1" parent="1">
+          <mxGeometry x="49" y="399" width="162" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="129" y="427" width="391" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="447" width="20" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="447" width="20" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-21" value="HP ProDesk SFF" style="fontColor=#0066CC;verticalAlign=middle;verticalLabelPosition=middle;labelPosition=right;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="178" y="467" width="80" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-262" y="427" width="391" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-242" y="447" width="20" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="447" width="20" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-25" value="HP ProDesk SFF" style="fontColor=#0066CC;verticalAlign=middle;verticalLabelPosition=middle;labelPosition=left;align=right;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;spacingLeft=12;spacingRight=13;" vertex="1" parent="1">
+          <mxGeometry x="10" y="467" width="80" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2OAQ53eWjD_BrL6G9DFq-26" value="Bildschirm, Maus &amp;amp;&lt;br&gt;&amp;nbsp;Tastatur auf Tisch" style="html=1;verticalLabelPosition=middle;align=center;labelBackgroundColor=#ffffff;verticalAlign=middle;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.monitor;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="329.5" width="170" height="97.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
