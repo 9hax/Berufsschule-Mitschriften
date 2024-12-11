@@ -44,11 +44,11 @@ Die folgenden Punkte sind wichtig:
 1. Recherche
 
 #### PC 
+
 1 PC: 240W
 Gesamtleistung von 33 PCs: 240W*33 = 7920W
-Verbrauch 1.5 Stunden: 11880 Wh
+Verbrauch 1.5 Stunden: 11880Wh
 
 #### Drucker
-Drucker: Betrieb 521 W, Standby 18w, Sleep 13w
 
-2. 
+Drucker: Betrieb 521 W, Standby 18w, Sleep 13w
