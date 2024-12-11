@@ -14,7 +14,7 @@ public class MenuSystem {
         showUI();
     }
 
-    public void showUI() {
+    private void showMenuHelp() {
         System.out.print("""
                 Twistor Main Menu
                 Please select an option:
@@ -24,24 +24,35 @@ public class MenuSystem {
                 3. Load additional datasets
                 4. Quit the program
                 > """);
+    }
+
+    public void showUI() {
+
         boolean exit = false;
         while (!exit) {
-            switch (scanner.nextLine().substring(0, 1)) {
-                case "1":
-                    showTwistUI();
-                    break;
-                case "2":
-                    showUntwistUI();
-                    break;
-                case "3":
-                    showDatasetManagerUI();
-                    break;
-                case "4":
-                    exit = true;
-                    break;
-                default:
-                    System.out.println("Please try again.");
-                    break;
+            showMenuHelp();
+            String input = scanner.nextLine();
+            if(!input.isEmpty()) {
+                switch (input.substring(0, 1)) {
+                    case "1":
+                        showTwistUI();
+                        break;
+                    case "2":
+                        showUntwistUI();
+                        break;
+                    case "3":
+                        showDatasetManagerUI();
+                        break;
+                    case "4":
+                        exit = true;
+                        break;
+                    default:
+                        System.out.println("Please try again.");
+                        break;
+                }
+                showMenuHelp();
+            } else {
+                System.out.println("Please input at least one character.");
             }
         }
     }
