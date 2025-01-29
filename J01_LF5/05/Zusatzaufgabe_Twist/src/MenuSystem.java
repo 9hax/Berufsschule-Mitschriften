@@ -50,7 +50,6 @@ public class MenuSystem {
                         System.out.println("Please try again.");
                         break;
                 }
-                showMenuHelp();
             } else {
                 System.out.println("Please input at least one character.");
             }
@@ -74,10 +73,14 @@ public class MenuSystem {
             System.out.print("> ");
             String input = scanner.nextLine();
             if (input.equals("STOP")) break;
-            System.out.println("The following candidates for untwisting were found:");
             ArrayList<String> candidates = Twister.untwist(input, datasetManager);
-            for (String candidate : candidates) {
-                System.out.println(candidate);
+            if (!candidates.isEmpty()) {
+                System.out.println("The following candidates for untwisting were found:");
+                for (String candidate : candidates) {
+                    System.out.println(candidate);
+                }
+            } else {
+                System.out.println("The program was unable to untwist this.");
             }
         }
         System.out.println("Going back to main menu...");

@@ -37,8 +37,10 @@ public class WordProcessor {
             return dataset.get(sorted);
         }
 
-        // word isn't found in dataset.
-        return null;
+        // word isn't found in dataset, return the twistedWord.
+        ArrayList<String> response = new ArrayList<>();
+        response.add("["+twistedWord+"]");
+        return response;
     }
 
     public static ArrayList<String> splitSentence(String sentence) {
@@ -57,30 +59,18 @@ public class WordProcessor {
     }
 
     public static ArrayList<String> permuteSentenceSet(ArrayList<ArrayList<String>> untwistCandidates) {
-        // Initialize a queue to hold partial sentences
-        if (untwistCandidates == null) return null;
+        ArrayList<String> responses = new ArrayList<>();
+        ArrayList<String> firstWord = untwistCandidates.getFirst();
 
-        Queue<String> queue = new LinkedList<>();
-        queue.add(""); // Start with an empty sentence
+        if (untwistCandidates.isEmpty()) return responses;
+        if (untwistCandidates.size() == 1) return firstWord;
 
-        // Iterate over each group of words
-        for (ArrayList<String> group : untwistCandidates) {
-            int currentLevelSize = queue.size(); // Number of partial sentences to process at this level
-
-            // Process all partial sentences in the queue for the current group
-            for (int i = 0; i < currentLevelSize; i++) {
-                String currentSentence = queue.poll(); // Remove the front of the queue
-
-                // Append each word from the current group to the partial sentence
-                for (String word : group) {
-                    // If the current sentence is empty, don't add a space
-                    String newSentence = currentSentence.isEmpty() ? word : currentSentence + " " + word;
-                    queue.add(newSentence); // Add the new sentence back to the queue
-                }
+        for (String permutation : permuteSentenceSet(new ArrayList<ArrayList<String>>(untwistCandidates.subList(1,untwistCandidates.size())))){
+            for (String word : firstWord) {
+                responses.add(word + " " + permutation);
             }
         }
 
-        // After processing all groups, the queue contains all possible sentences
-        return new ArrayList<>(queue);
+        return responses;
     }
 }
