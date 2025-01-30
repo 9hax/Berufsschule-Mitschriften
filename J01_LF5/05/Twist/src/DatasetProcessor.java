@@ -15,7 +15,7 @@ public class DatasetProcessor {
 
         for (String word : sourceList) {
             // Sort the Word alphabetically.
-            String sorted = new String(word.chars().sorted().toArray(), 0, word.length());
+            String sorted = StringSorter.sortStringMiddle(word);
 
             // Enter the word into the HashMap if it doesn't exist already.
 

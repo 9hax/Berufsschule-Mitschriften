@@ -31,7 +31,7 @@ public class WordProcessor {
     }
 
     public static ArrayList<String> getUntwistCandidates(String twistedWord, HashMap<String, ArrayList<String>> dataset) {
-        String sorted = new String(twistedWord.chars().sorted().toArray(), 0, twistedWord.length());
+        String sorted = StringSorter.sortStringMiddle(twistedWord);
 
         if (dataset.containsKey(sorted)) {
             return dataset.get(sorted);
