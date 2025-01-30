@@ -31,7 +31,6 @@ public class Main {
                 case "--interactive":
                 case "-i":
                     MenuSystem menu = new MenuSystem(wordLists);
-                    menu.showUI();
                     return;
                 default:
                     System.err.println("Unknown argument: " + args[i]);
