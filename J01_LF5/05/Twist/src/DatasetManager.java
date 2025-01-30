@@ -1,5 +1,3 @@
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -10,7 +8,7 @@ public class DatasetManager {
     public DatasetManager(ArrayList<String> wordLists) {
         datasets = new HashMap<>();
         for (String wordList: wordLists) {
-            loadDataset(wordList);
+            new WordDataFileLoader().loadDataset(wordList, this);
         }
     }
 
@@ -18,21 +16,16 @@ public class DatasetManager {
         datasets = new HashMap<>();
     }
 
-    public void loadDataset(String path) {
-
-        DataLoaderInterface loader = new WordFileDataLoader();
-
-        Path wordListFilePath = Paths.get(path);
-        ArrayList<String> wordList =  loader.loadData(wordListFilePath);
+    public void addDataset(ArrayList<String> wordList, String name) {
 
         HashMap<String, ArrayList<String>> newDataset = DatasetProcessor.prepare_hash_map(wordList);
 
         if (!datasets.containsValue(newDataset))
-            datasets.put(wordListFilePath.getFileName().toString(), newDataset);
+            datasets.put(name, newDataset);
     }
 
     public void loadDefaultDataset() {
-        loadDataset("wordlist_default.txt");
+        new WordDataFileLoader().loadDataset("wordlist_default.txt", this);
     }
 
     public ArrayList<String> getDatasets() {

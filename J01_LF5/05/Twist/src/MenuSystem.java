@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class MenuSystem {
@@ -18,16 +17,15 @@ public class MenuSystem {
         System.out.print("""
                 Twistor Main Menu
                 Please select an option:
-                
+               \s
                 1. Twist word or sentence
                 2. Untwist word or sentence
                 3. Load additional datasets
                 4. Quit the program
-                > """);
+                >\s""");
     }
 
     public void showUI() {
-
         boolean exit = false;
         while (!exit) {
             showMenuHelp();
@@ -86,9 +84,67 @@ public class MenuSystem {
         System.out.println("Going back to main menu...");
     }
 
+    public void showLoadUI() {
+        System.out.println("Please input a path to your dataset file. > ");
+        String input = scanner.nextLine();
+        System.out.println("Please choose the correct type of dataset:\n1. Plain Text List\n2. JSON Datafile\n3. XML\n4. CSV");
+        String type = scanner.nextLine();
+        if(!type.isEmpty()) {
+            switch (type.substring(0, 1)) {
+                case "1":
+                    new WordDataFileLoader().loadDataset(input, datasetManager);
+                    break;
+                case "2":
+                    new JsonDataFileLoader().loadDataset(input, datasetManager);
+                    break;
+                default:
+                    System.out.println("Please try again.");
+                    break;
+            }
+        } else {
+            System.out.println("Please input at least one character.");
+        }
+    }
+
+    public void showUnloadUI() {
+        System.out.println();
+    }
+
     public void showDatasetManagerUI() {
         int datasetCount = datasetManager.getDatasets().size();
         long wordCount = DatasetProcessor.getDatasetSize(datasetManager.mergeLoadedDatasets());
-        System.out.println("There are currently " + datasetCount + " loaded, containing " + wordCount + " words.");
+        System.out.printf("There are currently %d loaded, containing %d words.\n", datasetCount, wordCount);
+
+        boolean exit = false;
+        while (!exit) {
+            System.out.print("""
+                    Dataset Manager Menu
+                    Please select an option:\
+
+
+                    1. Load another dataset
+                    2. Unload a dataset
+                    3. Return to main menu.
+                    >\s""");
+            String input = scanner.nextLine();
+            if(!input.isEmpty()) {
+                switch (input.substring(0, 1)) {
+                    case "1":
+                        showLoadUI();
+                        break;
+                    case "2":
+                        //showUnloadUI();
+                        break;
+                    case "3":
+                        exit = true;
+                        break;
+                    default:
+                        System.out.println("Please try again.");
+                        break;
+                }
+            } else {
+                System.out.println("Please input at least one character.");
+            }
+        }
     }
 }
