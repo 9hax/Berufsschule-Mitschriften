@@ -32,6 +32,10 @@ public class Main {
                 case "-i":
                     MenuSystem menu = new MenuSystem(wordLists);
                     return;
+                case "--server":
+                case "-s":
+                    HttpApiSystem server = new HttpApiSystem(wordLists, 8124);
+                    return;
                 default:
                     System.err.println("Unknown argument: " + args[i]);
                     System.exit(1);

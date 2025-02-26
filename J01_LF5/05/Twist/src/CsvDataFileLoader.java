@@ -1,17 +1,18 @@
 import java.util.ArrayList;
 
-public class JsonDataFileLoader extends DataFileLoader {
+public class CsvDataFileLoader extends DataFileLoader {
 
     public ArrayList<String> parseData(ArrayList<String> fileContent) {
 
         ArrayList<String> wordList = new ArrayList<>();
 
-        String jsonObject = String.join("", fileContent);
+        String csvList = String.join("", fileContent);
+        System.out.println(csvList);
 
-        String[] words = jsonObject.split(",\\s*");
+        String[] words = csvList.split(",\\s*");
 
         for (String word: words) {
-            wordList.add(word.substring(1, word.length()-1).strip());
+            wordList.add(word.strip());
         }
 
         return wordList;
