@@ -2,7 +2,7 @@
 public class LogikfehlerII {
 
 	public static void main(String[] args) {
-		/* TODO:Das Programm tauscht den Inhalt von zwei Variablen aus.
+		/* Das Programm tauscht den Inhalt von zwei Variablen aus.
 		 * Dabei zeigt das Programm keine Fehler an
 		 * und es laesst sich kompilieren ohne eine Fehlermeldung in der 
 		 * Konsole auszugeben.

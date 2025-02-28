@@ -2,7 +2,7 @@
 public class Laufzeitfehler {
 
 	public static void main(String[] args) {
-		/* TODO: Beheben Sie die Fehler im Programm. Gehen Sie wie folgt vor:
+		/* Beheben Sie die Fehler im Programm. Gehen Sie wie folgt vor:
 		 * 1. Fuehren Sie Ihr Programm aus.
 		 * 2. Was beobachten Sie in der Konsolenausgabe?
 		 * 3. Lesen Sie die Fehlermeldungen in der Konsole. Orientieren 

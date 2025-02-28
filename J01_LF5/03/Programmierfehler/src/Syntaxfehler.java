@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Syntaxfehler {
 
 	public static void main(String[] args) {
-		/* TODO: Das Programm berechnet den Umfang eines Kreises. 
+		/* Das Programm berechnet den Umfang eines Kreises. 
 		 * Der Benutzer muss am Anfang den Durchmesser des Kreises eingeben.
 		 * Beheben Sie die Fehler im Programm. Gehen Sie wie folgt vor:
 		 * 1. Die Syntaxfehlern werden in der Regel sofort rot unterstrichen. 
@@ -42,6 +42,8 @@ public class Syntaxfehler {
 		//Ausgabe
 
 		System.out.println("Der Umfang betraegt " + umfang);
+
+		sc.close();
 	}
 
 }

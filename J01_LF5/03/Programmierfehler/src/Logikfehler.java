@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Logikfehler {
 
     public static void main(String[] args) {
-        /* TODO:Das Programm berechnet den Bruttowert nach Eingabe
+        /* Das Programm berechnet den Bruttowert nach Eingabe
          * vom Nettowert. Dabei zeigt das Programm keine Fehler an
          * und es laesst sich kompilieren ohne eine Fehlermeldung in der
          * Konsole auszugeben.
@@ -28,7 +28,7 @@ public class Logikfehler {
 
 
         // Ausgabe
-        System.out.print("Das Bruttowert beträgt: ");
+        System.out.print("Das Bruttowert betrï¿½gt: ");
 
         System.out.println(nettowert + (nettowert * steuersatz));
 

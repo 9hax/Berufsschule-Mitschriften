@@ -1,7 +1,7 @@
 
 public class LogikfehlerFortgeschrittene {
 	public static void main(String[] args) {
-		/* TODO: Das Programm gibt die kleinste Zahl 
+		/* Das Programm gibt die kleinste Zahl 
 		 * von sechs ganze Zahlen in der Konsole aus.
 		 * Das Programm zeigt keine Fehler an und es laesst sich 
 		 * kompilieren ohne eine Fehlermeldung in der Konsole auszugeben.
