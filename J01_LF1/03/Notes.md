@@ -5,7 +5,7 @@ Datum: 2025-02-24_09-45
 
 ## Marktsituation klären (LS 2, A1.1)
 
-Laut der ITK-Studie der bitcom e.V. wird der Marktwachsum im kommenden Jahr um 4,6% wachsen und damitvoraussichtlich ein Volumen von 232,8 Mrd. € erreichen.
+Laut der ITK-Studie der bitcom e.V. wird der Marktwachsum im kommenden Jahr um 4,6% wachsen und damit voraussichtlich ein Volumen von 232,8 Mrd. € erreichen.
 
 Die Statistik zeigt mit den prognostizierten Zahlen, welche Geldmengen für Firmen im ITK-Sektor im kommenden Jahr zu erwarten sind.
 Diese Zahlen können unternehmen dann nutzen, um ihre eigenen Budgetplanungen an erwartete Einnahmen anzupassen und sich damit auf das kommende Jahr anzupassen.
