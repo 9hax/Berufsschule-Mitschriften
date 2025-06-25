@@ -1,0 +1,50 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>421</x><y>45</y><w>210</w><h>150</h></coordinates><panel_attributes>_rs01: IdentifiedFlyingObject_
+--
+name = "Borg"
+energySupplyPercentage = 120
+shieldsPercentage = 100
+lifeSupportPercentage = 100
+hullStatusPercentage = 100
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>421</x><y>525</y><w>210</w><h>150</h></coordinates><panel_attributes>_rs02: IdentifiedFlyingObject_
+--
+name = "Enterprise"
+energySupplyPercentage = 100
+shieldsPercentage = 100
+lifeSupportPercentage = 100
+hullStatusPercentage = 100
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>721</x><y>725</y><w>210</w><h>70</h></coordinates><panel_attributes>_photonTorpedoB01: Weapon_
+--
+[no known attributes]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>721</x><y>25</y><w>210</w><h>50</h></coordinates><panel_attributes>_repairAndroidA01: RoboticEntity_
+--
+[no known attributes]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>721</x><y>95</y><w>210</w><h>50</h></coordinates><panel_attributes>_repairAndroidA02: RoboticEntity_
+--
+[no known attributes]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>721</x><y>165</y><w>210</w><h>50</h></coordinates><panel_attributes>_repairAndroidA03: RoboticEntity_
+--
+[no known attributes]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>721</x><y>655</y><w>210</w><h>50</h></coordinates><panel_attributes>_repairAndroidB03: RoboticEntity_
+--
+[no known attributes]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>721</x><y>585</y><w>210</w><h>50</h></coordinates><panel_attributes>_repairAndroidB02: RoboticEntity_
+--
+[no known attributes]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>721</x><y>515</y><w>210</w><h>50</h></coordinates><panel_attributes>_repairAndroidB01: RoboticEntity_
+--
+[no known attributes]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>621</x><y>25</y><w>120</w><h>100</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;80;100;11</additional_attributes></element><element><id>Relation</id><coordinates><x>621</x><y>85</y><w>120</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;100;20</additional_attributes></element><element><id>Relation</id><coordinates><x>621</x><y>95</y><w>120</w><h>100</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;100;80</additional_attributes></element><element><id>Relation</id><coordinates><x>621</x><y>515</y><w>120</w><h>100</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;80;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>621</x><y>575</y><w>120</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;100;20</additional_attributes></element><element><id>Relation</id><coordinates><x>621</x><y>585</y><w>120</w><h>100</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;100;80</additional_attributes></element><element><id>Relation</id><coordinates><x>621</x><y>655</y><w>120</w><h>100</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;100;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>141</x><y>95</y><w>210</w><h>70</h></coordinates><panel_attributes>_borgQueen: Captain_
+--
+name = "Borg-Königin"
+captainSice = 1778</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>141</x><y>575</y><w>210</w><h>70</h></coordinates><panel_attributes>_picard: Captain_
+--
+name = "Jean-Luc Picard"
+captainSice = 2364</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>341</x><y>85</y><w>100</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;80;20</additional_attributes></element><element><id>Relation</id><coordinates><x>341</x><y>565</y><w>100</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;80;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>461</x><y>745</y><w>210</w><h>70</h></coordinates><panel_attributes>_freigtB01: Cargo_
+--
+type = "Tricorder"
+amount = 120</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>461</x><y>835</y><w>210</w><h>70</h></coordinates><panel_attributes>_freigtB02: Cargo_
+--
+type = "Forschungssonden"
+amount = 200</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>421</x><y>665</y><w>60</w><h>110</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;90;40;90</additional_attributes></element><element><id>Relation</id><coordinates><x>421</x><y>665</y><w>60</w><h>200</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;180;40;180</additional_attributes></element><element><id>UMLClass</id><coordinates><x>451</x><y>215</y><w>210</w><h>70</h></coordinates><panel_attributes>_freightA01: Cargo_
+--
+type = "Klingonen"
+amount = 200</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>451</x><y>305</y><w>210</w><h>70</h></coordinates><panel_attributes>_freightA02: Cargo_
+--
+type = "Romulaner"
+amount = 300</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>451</x><y>395</y><w>210</w><h>70</h></coordinates><panel_attributes>_freightA03: Cargo_
+--
+type = "Vulkanier"
+amount = 50</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>421</x><y>185</y><w>50</w><h>60</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;40;30;40</additional_attributes></element><element><id>Relation</id><coordinates><x>421</x><y>185</y><w>50</w><h>150</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;130;30;130</additional_attributes></element><element><id>Relation</id><coordinates><x>421</x><y>185</y><w>50</w><h>240</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;220;30;220</additional_attributes></element></diagram>
