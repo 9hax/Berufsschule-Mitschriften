@@ -1,4 +1,8 @@
 public class RaumschiffTest {
+    /**
+     * Führt einen Test der Klassen Raumschiff und Ladung durch.
+      * @param args Argumente, die in dieser Funktion nicht bearbeitet werden.
+     */
     public static void main(String[] args) {
         Ladung l1, l2, l3, l4, l5, l6, l7;
         Raumschiff klingonen, romulaner, vulkanier;
@@ -60,12 +64,26 @@ public class RaumschiffTest {
         romulaner.ladungsverzeichnisAufraeumen();
         vulkanier.ladungsverzeichnisAufraeumen();
         klingonen.ladungsverzeichnisAufraeumen();
+        romulaner.ladungsverzeichnisAusgeben();
         System.out.println(romulaner);
         System.out.println(vulkanier);
         System.out.println(klingonen);
-        System.out.println("BroadcastKommunicator:");
+        System.out.println("BroadcastKommunikator:");
         for (String entry: Raumschiff.eintraegeLogbuchZurueckgeben())
             System.out.printf(" - %s%n", entry);
 
+        Raumschiff inventarTest = new Raumschiff(0, 0, 0, 0, 0, 0, "Inventar");
+        inventarTest.addLadung(new Ladung("A", 10));
+        inventarTest.addLadung(new Ladung("B", 10));
+        inventarTest.addLadung(new Ladung("A", 10));
+        inventarTest.ladungsverzeichnisAusgeben();
+
+        inventarTest.loadLadung(new Ladung("A", 10));
+        inventarTest.loadLadung(new Ladung("B", 10));
+        inventarTest.loadLadung(new Ladung("A", 10));
+        inventarTest.ladungsverzeichnisAusgeben();
+
+        inventarTest.ladungsverzeichnisAufraeumen();
+        inventarTest.ladungsverzeichnisAusgeben();
     }
 }
