@@ -1,0 +1,19 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="g4P1-r_JEUwNKbdq5j7t">
+    <mxGraphModel dx="609" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5PIg40WCN4aEBY4kwt-F-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Primäre Marktforschung&lt;/h1&gt;&lt;p&gt;Forschung vor Ort, Personen werden Fragen gestellt&lt;/p&gt;&lt;p&gt;- mündlich, schriftlich, telefonisch, online&lt;br&gt;- sowohl zu zweit als auch in Gruppen&lt;br&gt;- Interviewleitfaden ist hilfreich&lt;br&gt;- Sonderformen Panel befragt gleichbleibenden Keris an Freiwilligen periodisch&lt;br&gt;- Feld- oder Labor-Beobachtung in echter oder künstlicher Umwelt (z.B. Werbeforschung)&lt;br&gt;- Experiment zeigt Ursache-Wirkuhngsbeziehung bei gezielten Veränderungen&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="510" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="5PIg40WCN4aEBY4kwt-F-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Sekundäre Marktforschung&lt;/h1&gt;&lt;p&gt;Forschung an bereits existerenden, erhobenen Daten&lt;/p&gt;&lt;p&gt;- Dabei werden Daten von Bestandskunden und Vertragspartnern durchsucht&lt;br&gt;- interne Marktforschung zieht Daten von Mitarbeitern heran&lt;br&gt;- externe Marktforschung nutzt Daten aus öffentlichen Quellen (z.B. statisches Bundesamt)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="510" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5PIg40WCN4aEBY4kwt-F-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;online-Marktforschung&lt;/h1&gt;&lt;p&gt;hat keine feste Definition, junge Form der klassischen Marktforschung&lt;/p&gt;&lt;p&gt;- wird online betrieben&lt;br&gt;- systematische Sammlung, Aufbereitung, Analyse und Interpretation&lt;br&gt;- Befragung über das Medium Internet (auch Offline-Marktforschung)&lt;/p&gt;&lt;p&gt;- Umfasst Online-Befragung, Online-Fokusgruppen, Online-Experimente, Feedbacksysteme, Webcam-Interviews, Mystery-Emailing (?) sowie Tracking&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="510" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
