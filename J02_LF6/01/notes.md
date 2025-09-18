@@ -2,7 +2,7 @@
 
 author: LV
 date: 2026-09-16_08-00
-taught-by: Meier
+taught-by: Maier
 
 ## LF 6 Inhalt
 
@@ -76,3 +76,38 @@ Dispose – Quote der datenschutzkonformen Entsorgung (in %)
 → Wirkung: Hohe Quote senkt rechtliche Risiken und Folgekosten.
 ```
 
+## Standardwerke für IT-Servicemanagement
+
+Standardwereke erlauben die vereinheitlichte Kommunikation in Teams zur vereinfachten Zusammenarbeit an PRojekten und legen Rahmenbedingungen für Handlungen und andere Prozesse fest.
+Zertifizierungen halten hierbei die tatsächliche Durchsetzung der Orientierung an ebendiesen Standardwerken fest.
+
+### Begriffsdefinitionen
+
+- Norm: im Normungsverfahren entstandene, rechtlich anerkannte, allgemeingültige Regel.
+- Industrie-Standard: Hinweis für einen Ablauf der sich über Zeit als technisch nützlich und richtig erwiesen hat, aber kein Normungsverfahren durchlaufen hat
+- herstellersepzifischer Standard: Anwender haben festgestellt, dass es ernünftig it, den Vorgaben eines HErstellers zu folgen.
+- Framework: Leitplanken zum Strukturieren von Abläufen.
+
+### DIN EN ISO 9000 / 20000
+
+- ISO 9000:2000 beschreibt Regeln für das Qualitätsmanagement.
+  - Anforderungen für ein QM-System
+- ISO/IEC 20000 ist ein messbarer Qualitätsstandard für IT-Servicemanagement.
+  - notwendige Mindestanforderungen an Prozesse für eine definierte Qualität
+  - orientiert sich an Prozessbeschreibungen aus Frameworks bestimmter Firmen und ergänzt Vorgehensweisen, Prozesse und Handlungsempfehlungen.
+  - nur Organisationen können sich zertifizieren lassen, PErsonen können und das Wissen über Normen zertifizieren lassen.
+
+### FitSM
+
+- unter [CC](https://creativecommons.org) lizensiertes Framework für kleine und mittlere Organisationen.
+- basiert auf ISO-20000
+- ist klar und einfach strukturiert
+- übersichtliche Zahl an Elementen (Prozesse, Rollen, Dokumente, Begriffe)
+- Bietet Bewertug mit 
+- deckt weit verbreitete, praxisrelevante Prozesse ab und reduziert auf das wesentliche
+
+### ITIL
+
+- Inhalte des Frameworks sind als Best Practices angenommen
+- britische Regierungsinitivative der IT Infrastructure Library zur Bewertung von IT-Dienstleistungen
+- Mitarbeiter können zertifizert werden, Unternehmen nicht.
