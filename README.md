@@ -21,3 +21,8 @@ Implementierungen werden mit den folgenden Programmen erstellt:
 
 - Java-Projekte: [JetBrains IntelliJ Idea Community Edition](https://jetbrains.com/idea)
 - Python-Skripte: [Microsoft Visual Studio Code](https://vscode.dev)
+
+Es werden zusätzlich die folgenden Programme verwendet:
+
+- Cisco PacketTracer
+- HomeMatic IP CCU3
